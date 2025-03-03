@@ -1,21 +1,21 @@
 {
-  "dependencies": {
-    "fastify": "^5.2.1"
-  },
-  "type": "module",
-  "devDependencies": {
-    "@types/node": "^22.13.8"
-  },
-  "name": "camera-proxy",
+  "name": "adtcapshome-dvr",
   "version": "1.0.0",
+  "type": "module",
   "main": "src/app.ts",
   "scripts": {
     "start": "node src/app.ts"
   },
-  "author": "",
+  "author": "koreapyj",
   "license": "GPL-3.0-or-later",
   "description": "",
   "engines": {
     "node": ">=23"
+  },
+  "dependencies": {
+    "fastify": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.8"
   }
 }
