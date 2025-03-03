@@ -14,5 +14,8 @@
   },
   "author": "",
   "license": "GPL-3.0-or-later",
-  "description": ""
+  "description": "",
+  "engines": {
+    "node": ">=23"
+  }
 }

@@ -1,6 +1,5 @@
 import Fastify from 'fastify'
 import * as child_process from 'child_process';
-import * as Stream from 'stream';
 
 const streams = {
 };
@@ -16,7 +15,7 @@ const sleep = (ms) => {
 };
 
 // Declare a route
-fastify.get('/cdn-cgi/health', async (request, reply) => {
+fastify.get('/health', async (request, reply) => {
   reply.statusCode = 204;
 })
 
